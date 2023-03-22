@@ -1,0 +1,16 @@
+.mainContent{
+    text-align: center;
+    background-color: rgb(213, 169, 255);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}   
+
+
+#title{
+    padding-top: 30px;
+
+}
+
+#menu{
+    display: inline-flex
+    
+}
