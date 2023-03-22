@@ -1,0 +1,143 @@
+
+body{
+    margin: 0 auto;
+}
+
+section.top-page{
+    background: url('../pictures/fond1.avif');
+    height: 70vh;
+    background-size: cover;
+    padding: 25px;
+}
+
+header.headerTopPage{
+    display: flex;
+    align-items: center;
+    /* background-color: brown; */
+
+}
+
+header.headerTopPage img{
+    width: 150px;
+    height: 140px;
+
+}
+
+/* menu de navigation */
+
+nav.navigation{
+    display: flex;
+    list-style: none;
+    width: 600px;
+    height: 50px;
+    /* background-color: blue; */
+    margin-left: 50px;
+    justify-content: space-between;
+
+}
+
+nav.navigation li{
+    color: white;
+    font-size: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* titre */
+
+.bigTitle{
+    color: white;
+    font-size: 150px;
+    /* background-color: blueviolet; */
+    padding: 20px 100px;
+}
+
+.landing-page{
+    padding: 20px 100px;
+}
+
+.scrollDown{
+    color: white;
+    text-decoration: none;
+    position: absolute;
+    bottom: 280px;
+}
+
+/* section javascript */
+
+section.js-page{
+    background: url('../pictures/fondJs.avif');
+    height: 70vh;
+    background-size: cover;
+    padding: 25px;
+}
+
+header.headerJs{
+    display: flex;
+}
+
+.contentJs{
+    background-color: blue;
+    width: 1000px;
+    height: 500px;
+}
+
+
+.titleJs{
+    color: white;
+    font-size: 60px;
+}
+
+
+.textJs{
+    color: white;
+    font-size: 40px;
+}
+
+#logoJs{
+    background-color: aqua;
+    margin-left: 50px;
+    width: 1000px;
+    height: 500px;
+}
+
+/* section python */
+
+section.py-page{
+    background: url('../pictures/fondPy.jpg');
+    height: 70vh;
+    background-size: cover;
+    padding: 25px;
+}
+
+header.headerPy{
+    display: flex;
+}
+
+.contentPy{
+    background-color: blue;
+    width: 1000px;
+    height: 500px;
+}
+
+.titlePy{
+    color: white;
+    font-size: 60px;
+}
+
+.textPy{
+    color: white;
+    font-size: 40px;
+}
+
+.logoPy{
+    background-color: aqua;
+    margin-left: 50px;
+    width: 1000px;
+    height: 500px;
+}
+
+/* test */
+
+#test{
+    background-color: crimson;
+}
