@@ -1,0 +1,11 @@
+Model Information:
+* title:	Pac-man arcade cabinet
+* source:	https://sketchfab.com/3d-models/pac-man-arcade-cabinet-a847cb5d021c463499ab9c64e49859ec
+* author:	GM (https://sketchfab.com/GMmdoels)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Pac-man arcade cabinet" (https://sketchfab.com/3d-models/pac-man-arcade-cabinet-a847cb5d021c463499ab9c64e49859ec) by GM (https://sketchfab.com/GMmdoels) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
