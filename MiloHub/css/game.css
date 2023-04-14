@@ -1,0 +1,136 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'fantasy', sans-serif;
+    user-select: none;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: url(../pictures/bg.jpg);
+    background-size: cover;
+}
+
+.Button{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100px;
+    height: 50px;
+    border-radius: 20px;
+    font-size: 20px;
+}
+
+.container{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 1200px;
+    transform-style: preserve-3d;
+}
+.box{
+    position: relative;
+    width: 300px;
+    height: 400px;
+    background: url(../pictures/bg_card.png);
+    background-size: cover;
+    border-radius: 20px;
+    transform-style: preserve-3d;
+}
+.box::before{
+    content: 'GAME';
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    font-size: 5em;
+    font-weight: 900;
+    color: white;
+    font-style: italic;
+    opacity: 0;
+    transition: 0.5s;
+}
+.box::after{
+    content: 'PLAY';
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    font-size: 5em;
+    font-weight: 900;
+    color: #fff;
+    font-style: italic;
+    opacity: 0;
+    transition: 0.5s;
+}
+
+.box:hover::before{
+    opacity: 0.09;
+}
+.box:hover::after{
+    opacity: 0.10;
+}
+
+.name{
+    position: absolute;
+    top: 0;
+    left: 0;
+    text-align: center;
+    color: #fff;
+    width: 100%;
+    transform-style: preserve-3d;
+    transform: translate3d(0,0,75px);
+    transition: 0.5s;
+    opacity: 0;
+    z-index: 10;
+}
+
+.box:hover .name{
+    top: 40px;
+    opacity: 1;
+}
+
+.play{
+    position: absolute;
+    bottom: 0;
+    left: 50px;
+    transform-style: preserve-3d;
+    transform: translate3d(0,0,75px);
+    color: #fff;
+    background: black;
+    padding:10px 25px ;
+    border-radius: 30px;
+    text-decoration: none;
+    transition: 0.5s;
+    opacity: 0;
+    z-index: 10;
+}
+
+.box:hover .play{
+    bottom: 30px;
+    opacity: 1;
+}
+
+
+.product{
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    width: 200px;
+    max-width: 300px;
+    transition: 0.5s;
+    z-index: 12;
+    transition: 0.5s;
+    transform-style: preserve-3d;
+    transform: translate3d(-50%,50%,0px) rotate(-15deg);
+ }
+
+.box:hover .product{
+    transform: translate3d(-50%, -5%, 100px);
+}
+

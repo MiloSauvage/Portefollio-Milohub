@@ -1,0 +1,186 @@
+body
+	{
+		margin: 0;
+		/* overflow: hidden; */
+        background: url('../pictures/fondAll.avif');
+        user-select: none;
+
+
+    }
+
+/* section 1 */
+
+section.top-page{
+    background: url('../pictures/fond1.avif');
+    height: 100vh;
+    background-size: cover;
+    padding: 25px;
+    border-radius: 50px;
+}
+
+header.headerTopPage{
+    display: flex;
+    align-items: center;
+    /* background-color: brown; */
+
+}
+
+header.headerTopPage img{
+    width: 150px;
+    height: 140px;
+
+}
+
+/* menu de navigation */
+
+nav.navigation{
+    display: flex;
+    list-style: none;
+    width: 1400px;
+    height: 50px;
+    /* background-color: blue; */
+    margin-left: 50px;
+    justify-content: space-between;
+
+}
+
+nav.navigation li{
+    color: white;
+    font-size: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border: 1px solid;
+    border-radius: 10px;
+}
+
+/* titre */
+
+.bigTitle{
+    color: white;
+    font-size: 150px;
+    /* background-color: blueviolet; */
+    padding: 20px 500px;
+    border: 2px solid;
+    border-radius: 30px;
+}
+
+.landing-page{
+    padding: 20px 100px;
+}
+
+.scrollDown{
+    color: white;
+    text-decoration: none;
+    position: absolute;
+    bottom: 280px;
+}
+
+/* section Discord */
+
+section.js-page{
+    /* background: url('../pictures/fondJs.avif'); */
+    height: 60vh;
+    background-size: cover;
+    padding: 25px;
+}
+
+header.headerJs{
+    display: flex;
+}
+
+.contentJs{
+    background-color: rgb(88, 85, 85) ;
+    border-radius: 30px;
+    padding-left: 50px;
+    width: 750px;
+    height: 400px;
+}
+
+
+.titleJs{
+    color: white;
+    font-size: 40px;
+}
+
+
+.textJs{
+    color: white;
+    font-size: 20px;
+}
+
+.discordButton{
+    display: flex;
+}
+
+.joinButton{
+    height: 100px;
+    width: 200;
+    border-radius: 20px;
+    margin-left: 100px;
+}
+
+.infoButton{
+    height: 100px;
+    width: 200;
+    border-radius: 20px;
+    margin-left: 20px;
+}
+
+#MyCanvasJs{
+    background-color: rgb(153, 155, 223);
+    border-radius: 30px;
+    position: absolute;
+    top: 940px;
+    left: 875px;
+    
+}
+
+/* section python */
+section.py-page{
+    /* background: url('../pictures/fondPy.jpg'); */
+    height: 70vh;
+    background-size: cover;
+    padding: 25px;
+}
+
+header.headerPy{
+    display: flex;
+}
+
+.contentPy{
+    background-color: rgb(88, 85, 85) ;
+    border-radius: 30px;
+    width: 750px;
+    height: 400px;
+    padding-left: 50px;
+}
+
+.titlePy{
+    color: white;
+    font-size: 40px;
+}
+
+.textPy{
+    color: white;
+    font-size: 20px;
+}
+
+.GameButton{
+    height: 100px;
+    width: 250;
+    border-radius: 20px;
+    margin-left: 200px;
+}
+
+#MyCanvasPy{
+    background: url('../pictures/fondJs.avif');
+    background-size: cover;
+    border-radius: 30px;
+    position: absolute;
+    top : 1510px ;
+    left: 875px;
+}
+
+
+/* test 3d */
+
+
